@@ -7,19 +7,15 @@ export const Hero = () => {
       <h4 className="text-[#64FFDA] md:text-xl font-poppins ">
         Hi, my name is
       </h4>
-      <h1 className="mt-5 md:mt-8 font-inter text-3xl md:text-5xl font-extrabold">
-        Daniel Fayemi.
+      <h1 className="mt-5 md:mt-8 font-inter text-3xl md:text-8xl font-extrabold">
+        Daniel <span className="text-[#64FFDA]">Fayemi.</span>
       </h1>
       <div className="mt-4 font-inter text-2xl md:text-4xl font-extrabold text-[#D9D9D9]">
         <TypewriterComponent
           onInit={(typewriter) => {
             typewriter
 
-              .typeString(
-                `
-                I build World-class Software and Solutions.
-              `
-              )
+              .typeString(" I build World-class Software and Solutions.")
 
               .start();
           }}
