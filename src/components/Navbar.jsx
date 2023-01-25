@@ -6,7 +6,7 @@ export const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   let navLinks = [
-    { name: "About", link: "/" },
+    { name: "About", link: "#aboutme" },
     { name: "Experience", link: "/" },
     { name: "Work", link: "/" },
     { name: "Contact", link: "/" },
@@ -19,7 +19,7 @@ export const Navbar = () => {
 
   return (
     <div className="w-[100%] relative mb-40">
-      <div className="w-full px-4 md:px-20 py-8 md:py-12 md:flex items-center justify-between fixed top-0 bg-[#020c1b] ">
+      <div className="w-full px-4 md:px-20 py-8 md:py-12 md:flex items-center justify-between fixed top-0 bg-[#020c1b] z-10 ">
         <div>
           <span className="border-2 border-[#64FFDA] p-4 font-poppins">
             <span className="text-[#64FFDA]">Daniel</span>Fayemi
@@ -48,7 +48,7 @@ export const Navbar = () => {
               key={index}
               className="mt-6 md:mt-0 hover:border-t-0 hover:border-r-0 hover:border-l-0 hover:border-b-4 hover:border-b-[#64FFDA] cursor-pointer transition-all duration-300"
             >
-              {navLink.name}
+              <a href={navLink.link}>{navLink.name}</a>
             </li>
           ))}
 
