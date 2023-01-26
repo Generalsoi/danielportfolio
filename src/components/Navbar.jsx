@@ -48,7 +48,12 @@ export const Navbar = () => {
               key={index}
               className="mt-6 md:mt-0 hover:border-t-0 hover:border-r-0 hover:border-l-0 hover:border-b-4 hover:border-b-[#64FFDA] cursor-pointer transition-all duration-300"
             >
-              <a href={navLink.link}>{navLink.name}</a>
+              <a
+                href={navLink.link}
+                className="transition-all ease-in-out duration-400"
+              >
+                {navLink.name}
+              </a>
             </li>
           ))}
 
