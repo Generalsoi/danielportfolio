@@ -7,9 +7,7 @@ export const About = () => {
         <h1 className="md:text-4xl mb-10">
           About me<span className="text-[#64FFDA]">.</span>
         </h1>
-        <div className="w-[50%] h-10 flex items-center justify-center">
-          <div className="h-1 w-full bg-[#A8B2D1]"></div>
-        </div>
+        <div className="h-1 w-[50%] bg-[#A8B2D1]"></div>
       </div>
 
       <p className="md:w-[70%] text-[#A8B2D1] text-sm md:text-lg mb-4">
