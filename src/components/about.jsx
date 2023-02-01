@@ -2,7 +2,7 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div className="px-4 md:px-28 py-8 md:py-24 font-poppins" id="aboutme">
+    <div className="px-4 md:px-28 py-8 md:py-24 font-poppins" id="about">
       <div className="flex items-center ">
         <h1 className="md:text-4xl mb-10">
           About me<span className="text-[#64FFDA]">.</span>

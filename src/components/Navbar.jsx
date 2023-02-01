@@ -6,8 +6,8 @@ export const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   let navLinks = [
-    { name: "About", link: "#aboutme" },
-    { name: "Experience", link: "/" },
+    { name: "About", link: "#about" },
+    { name: "Experience", link: "/experience" },
     { name: "Work", link: "/" },
     { name: "Contact", link: "/" },
   ];

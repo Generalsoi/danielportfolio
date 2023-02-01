@@ -1,6 +1,7 @@
 import React from "react";
 import { About } from "./about";
 import { Experience } from "./experience";
+import { GetInTouch } from "./getInTouch";
 import { Hero } from "./hero";
 import { Navbar } from "./Navbar";
 
@@ -11,6 +12,7 @@ export const Homepage = () => {
       <Hero />
       <About />
       <Experience />
+      <GetInTouch />
     </div>
   );
 };

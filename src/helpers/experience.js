@@ -1,5 +1,6 @@
 export const workExperience = [
   {
+    id: 1,
     company: "Patricia Universe, Remote",
     role: "Senior Backend Engineer",
     roleDescriptions: [
@@ -11,6 +12,7 @@ export const workExperience = [
     timeline: "2016-01 - 2018-02",
   },
   {
+    id: 2,
     company: "Chipper Cash, Remote",
     role: "Senior Backend Engineer",
     roleDescriptions: [
@@ -21,6 +23,7 @@ export const workExperience = [
     timeline: "2018-07 - 2021-01",
   },
   {
+    id: 3,
     company: "LaToken, Remote",
     role: "Senior Backend Engineer",
     roleDescriptions: [
@@ -30,6 +33,7 @@ export const workExperience = [
     timeline: "2021-01 - 2022-02",
   },
   {
+    id: 4,
     company: "Binance, Remote",
     role: "Senior Backend Engineer",
     roleDescriptions: [
