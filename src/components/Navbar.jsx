@@ -18,7 +18,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="w-[100%] relative mb-40">
+    <div className="w-[100%] relative mb-36">
       <div className="w-full px-4 md:px-20 py-8 md:py-12 md:flex items-center justify-between fixed top-0 bg-[#020c1b] z-10 ">
         <div>
           <span className="border-2 border-[#64FFDA] p-4 font-poppins">
