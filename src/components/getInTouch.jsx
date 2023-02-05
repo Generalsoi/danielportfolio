@@ -2,7 +2,10 @@ import React from "react";
 
 export const GetInTouch = () => {
   return (
-    <div className="text-center px-4 md:px-28 py-6 md:py-10 font-poppins">
+    <div
+      className="text-center px-4 md:px-28 py-6 md:py-10 font-poppins"
+      id="contact"
+    >
       <h2 className="text-[#D9D9D9] font-extrabold text-xl md:text-5xl">
         Get In Touch
       </h2>

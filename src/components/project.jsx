@@ -5,7 +5,7 @@ import { BsGithub } from "react-icons/bs";
 
 export const Project = () => {
   return (
-    <div className="px-4 md:px-28 py-8 md:py-24 font-poppins">
+    <div className="px-4 md:px-28 py-8 md:py-24 font-poppins" id="work">
       <div className="flex items-center ">
         <h1 className="md:text-4xl mb-10">
           Projects<span className="text-[#64FFDA]">.</span>
