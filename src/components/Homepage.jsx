@@ -4,6 +4,7 @@ import { Experience } from "./experience";
 import { GetInTouch } from "./getInTouch";
 import { Hero } from "./hero";
 import { Navbar } from "./Navbar";
+import { Project } from "./project";
 
 export const Homepage = () => {
   return (
@@ -12,6 +13,7 @@ export const Homepage = () => {
       <Hero />
       <About />
       <Experience />
+      <Project />
       <GetInTouch />
     </div>
   );
