@@ -4,6 +4,7 @@ import TypewriterComponent from "typewriter-effect";
 export const Hero = () => {
   return (
     <div className="px-4 md:px-28 py-10 md:py-12">
+      {/* need to implement animation using framer motion */}
       <h4 className="text-[#64FFDA] md:text-xl font-poppins ">
         Hi, my name is
       </h4>
