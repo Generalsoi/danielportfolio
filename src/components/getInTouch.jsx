@@ -20,7 +20,7 @@ export const GetInTouch = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <button className="px-20 py-2 bg-[#64FFDA] text-[#112240] font-bold border-none rounded-xl cursor-pointer hover:scale-105 transition-all duration-300">
+        <button className="px-20 py-2 bg-[#64FFDA] text-[#112240] font-bold border-none rounded-xl cursor-pointer animate-bounce">
           Say Hello
         </button>
       </a>
