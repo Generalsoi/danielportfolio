@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { workExperience } from "../helpers/experience";
 import Arrow from "../img/Vector.png";
+import { motion } from "framer-motion";
 
 export const Experience = () => {
   const [roleId, setRoleId] = useState(1);
@@ -30,7 +31,18 @@ export const Experience = () => {
             </h3>
           ))}
         </div>
-        <div>
+        <motion.div
+          whileInView={{
+            x: 0,
+          }}
+          initial={{
+            x: 100,
+          }}
+          transition={{
+            type: "spring",
+            stiffness: 20,
+          }}
+        >
           {workExperience.map(
             (experience) =>
               roleId === experience.id && (
@@ -52,7 +64,7 @@ export const Experience = () => {
                 </div>
               )
           )}
-        </div>
+        </motion.div>
       </div>
     </div>
   );

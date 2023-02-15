@@ -1,32 +1,7 @@
-import React, { useRef, useEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React from "react";
+import { motion } from "framer-motion";
 
 export const About = () => {
-  gsap.registerPlugin(ScrollTrigger);
-  const aboutRef = useRef(null);
-
-  useEffect(() => {
-    gsap.fromTo(
-      aboutRef,
-      {
-        opacity: 0,
-        x: -100,
-      },
-      {
-        opacity: 1,
-        x: 0,
-        duration: 1,
-        delay: 3,
-        ease: "bounce.out",
-        scrollTrigger: {
-          trigger: "#about-daniel",
-          start: "top center",
-        },
-      }
-    );
-  }, []);
-
   return (
     <div className="px-4 md:px-28 py-8 md:py-24 font-poppins" id="about">
       <div className="flex items-center ">
@@ -36,7 +11,21 @@ export const About = () => {
         <div className="h-1 w-[50%] bg-[#A8B2D1]"></div>
       </div>
 
-      <span ref={aboutRef} id="about-daniel">
+      <motion.span
+        id="about-daniel"
+        whileInView={{
+          x: 0,
+          opacity: 1,
+        }}
+        initial={{
+          x: 100,
+          opacity: 0,
+        }}
+        transition={{
+          type: "spring",
+          stiffness: 30,
+        }}
+      >
         <p className="md:w-[70%] text-[#A8B2D1] text-sm md:text-lg mb-4">
           A Software Engineer with 7+ years of professional development
           experience, I have been in active development in Crypto, Payments,
@@ -58,7 +47,7 @@ export const About = () => {
           with other global teams. Here are a few technologies I have been
           working with in recent times:
         </p>
-      </span>
+      </motion.span>
 
       <span className="flex items-start gap-12 md:gap-24 text-[#64FFDA]">
         <span>

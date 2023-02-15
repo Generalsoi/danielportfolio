@@ -2,6 +2,7 @@ import React from "react";
 import { projectDetails } from "../helpers/projects";
 import { BsFolderFill } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 export const Project = () => {
   return (
@@ -13,7 +14,19 @@ export const Project = () => {
         <div className="h-1 w-[50%] bg-[#A8B2D1]"></div>
       </div>
 
-      <div className="md:flex gap-10 items-center justify-center flex-wrap">
+      <motion.div
+        className="md:flex gap-10 items-center justify-center flex-wrap"
+        whileInView={{
+          y: 0,
+        }}
+        initial={{
+          y: 100,
+        }}
+        transition={{
+          type: "spring",
+          stiffness: 20,
+        }}
+      >
         {projectDetails.map((project) => (
           <div
             key={project.id}
@@ -29,7 +42,7 @@ export const Project = () => {
             <p className="mt-6 text-xs md:text-sm">{project.description}</p>
           </div>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 };

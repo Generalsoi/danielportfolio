@@ -1,10 +1,14 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export const GetInTouch = () => {
   return (
-    <div
+    <motion.div
       className="text-center px-4 md:px-28 py-6 md:py-10 font-poppins"
       id="contact"
+      whileInView={{ scale: 1, opacity: 1 }}
+      initial={{ scale: 0.5, opacity: 0 }}
+      transition={{ type: "spring", stiffness: 20 }}
     >
       <h2 className="text-[#D9D9D9] font-extrabold text-xl md:text-5xl">
         Get In Touch
@@ -24,6 +28,6 @@ export const GetInTouch = () => {
           Say Hello
         </button>
       </a>
-    </div>
+    </motion.div>
   );
 };
