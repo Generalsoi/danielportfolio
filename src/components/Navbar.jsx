@@ -61,9 +61,15 @@ export const Navbar = () => {
             </li>
           ))}
 
-          <button className="mt-6 md:mt-0 border border-[#64FFDA] rounded-lg py-2 px-4 hover:bg-[#64FFDA] hover:text-white ">
-            Resume
-          </button>
+          <a
+            href="https://drive.google.com/file/d/1ERGW5Bb2J0g43i-03wJqpjWHxO13cX3o/view?usp=drivesdk"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button className="mt-6 md:mt-0 border border-[#64FFDA] rounded-lg py-2 px-4 hover:bg-[#64FFDA] hover:text-white ">
+              Resume
+            </button>
+          </a>
         </ul>
       </div>
     </div>
