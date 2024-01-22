@@ -42,4 +42,16 @@ export const workExperience = [
     ],
     timeline: "2022-02 - 2022-11",
   },
+  {
+    id: 5,
+    company: "Bitvavo, Amsterdam Netherlands",
+    role: "Software Backend Engineer",
+    roleDescriptions: [
+      "Integrated Blockchain Deposits and withdrawals for the multiple assets on the Bitvavo Backend, including APT, CFX, CSPR, CAKE, WIN and BTT.",
+      "Maintaining, Updating, and Migrating currently Integrated Blockchains.",
+      "Worked on Decoding Onchained Batched Contracts and Multsig Transactions Optimally.",
+      "Integrated Outbox services for supporting more Event-type Processes.",
+    ],
+    timeline: "2023-05 - present",
+  },
 ];
