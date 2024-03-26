@@ -30,7 +30,7 @@ export const Project = () => {
         {projectDetails.map((project) => (
           <div
             key={project.id}
-            className="w-full md:w-80 md:h-60 bg-[#112240] p-8 mt-8 md:mt-0 hover:scale-105 transition-all duration-300"
+            className="w-full md:w-80 md:h-100 bg-[#112240] p-8 mt-8 md:mt-0 hover:scale-105 transition-all duration-300"
           >
             <span className="flex items-center justify-between">
               <BsFolderFill />
