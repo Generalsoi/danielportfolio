@@ -19,15 +19,26 @@ export const GetInTouch = () => {
         to get back to you as soon as is possible.
       </p>
 
-      <a
-        href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=danieltosinfayemi@gmail.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <button className="px-20 py-2 bg-[#64FFDA] text-[#112240] font-bold border-none rounded-xl cursor-pointer animate-bounce">
-          Say Hello
-        </button>
-      </a>
+      <div className="md:flex items-center justify-center gap-6">
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=danieltosinfayemi@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="px-10 py-2 bg-[#64FFDA] text-[#112240] font-bold border-none rounded-xl cursor-pointer animate-bounce">
+            Say Hello
+          </button>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/danielfayemi"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="px-10 py-2 bg-[#64FFDA] text-[#112240] font-bold border-none rounded-xl cursor-pointer animate-bounce mt-4 md:mt-0">
+            Linkedin
+          </button>
+        </a>
+      </div>
     </motion.div>
   );
 };

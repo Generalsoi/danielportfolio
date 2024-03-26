@@ -27,25 +27,25 @@ export const About = () => {
         }}
       >
         <p className="md:w-[70%] text-[#A8B2D1] text-sm md:text-lg mb-4">
-          A Software Engineer with 7+ years of professional development
-          experience, I have been in active development in Crypto, Payments,
-          P2P, Blockchain, and Blockchain Integration for 4 of those years.
+          A seasoned Software Engineer with 7+ years of professional development
+          experience. I specialize in designing, building, maintaining, and
+          scaling robust backend systems within the dynamic realms of fintech,
+          cryptocurrency, and blockchain technology.
         </p>
         <p className="md:w-[70%] text-[#A8B2D1] text-sm md:text-lg mb-4">
-          Throughout my career, I have Integrated over 30+ blockchains ranging
-          from UTXO blockchains to EVM compactable blockchains, Cosmos
-          blockchains, IoT blockchains, to unique and standout blockchains. I
-          have integrated their native currency, Tokens (ERC20, ERC721), and
-          functions into backend systems. I have been involved in all
-          integration processes, from researching blockchains, and communicating
-          with the blockchain team, to setting up dedicated blockchain Nodes (if
-          needed) to code implementation, code reviewing, and testing.
+          My career journey spans startups to large-scale enterprises, where I
+          have made significant contributions to a diverse range of products.
+          With a solid foundation in both technical and soft skills, I excel in
+          environments that require not only coding expertise but also strong
+          ownership and leadership qualities. My commitment to innovation and
+          excellence had driven me to continuously deliver solutions that meet
+          and exceed business objectives, demonstrating my capability to lead
+          projects to successful completions in fast-paced and ever-revolving
+          tech landscapes.
         </p>
 
         <p className="md:w-[70%] text-[#A8B2D1] text-sm md:text-lg mb-4">
-          I have had the opportunity to build and grow with a startup and worked
-          with other global teams. Here are a few technologies I have been
-          working with in recent times:
+          Here are a few technologies I have been working with in recent times:
         </p>
       </motion.span>
 
@@ -63,6 +63,7 @@ export const About = () => {
           <p>NodeJS</p>
           <p>Express</p>
           <p>Laravel</p>
+          <p>AWS</p>
         </span>
       </span>
     </div>
