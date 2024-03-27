@@ -2,6 +2,7 @@ import React from "react";
 import { projectDetails } from "../helpers/projects";
 import { BsFolderFill } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
+import { BsLink45Deg } from "react-icons/bs";
 import { motion } from "framer-motion";
 
 export const Project = () => {
@@ -34,9 +35,11 @@ export const Project = () => {
           >
             <span className="flex items-center justify-between">
               <BsFolderFill />
-              <a href={project.githubLink} target="_blank" rel="noreferrer">
+              {project.id === 1 ? (<a href={project.githubLink} target="_blank" rel="noreferrer">
+                <BsLink45Deg className="cursor-pointer" />
+              </a>) : (<a href={project.githubLink} target="_blank" rel="noreferrer">
                 <BsGithub className="cursor-pointer" />
-              </a>
+              </a>)}
             </span>
             <h3 className="md:text-xl mt-4 font-bold">{project.name}</h3>
             <p className="mt-6 text-xs md:text-sm">{project.description}</p>

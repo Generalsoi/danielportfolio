@@ -56,6 +56,7 @@ export const About = () => {
           <p>Golang</p>
           <p>RabbitMQ</p>
           <p>Redis</p>
+          <p>MySQL</p>
         </span>
 
         <span>
@@ -64,6 +65,7 @@ export const About = () => {
           <p>Express</p>
           <p>Laravel</p>
           <p>AWS</p>
+          <p>Postgres</p>
         </span>
       </span>
     </div>
